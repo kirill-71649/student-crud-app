@@ -25,8 +25,6 @@ The application starts with three sample books. Changes are stored in memory and
 - `MainView` defines the Vaadin screen and CRUD actions.
 - `StudentCrudAppApplication` starts Spring Boot and adds sample data.
 
-## Screenshots for the assignment
+## Assignment evidence
 
-After running the application, save screenshots in the `doc` directory. Include the running application, an example of adding or editing and deleting a book, and the successful application startup output.
-
-See [`doc/README.md`](doc/README.md) for the checklist.
+The formatted evidence report, original screenshots and genuine startup-log excerpt are in [`doc/`](doc/README.md).

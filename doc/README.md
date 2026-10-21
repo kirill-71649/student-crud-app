@@ -1,9 +1,12 @@
-# Assignment screenshots
+# Assignment evidence
 
-Save genuine screenshots from your own run of the application in this directory:
+Evidence captured from a local run of the application on 21 October 2026. The formatted report is [`assignment-evidence.docx`](assignment-evidence.docx).
 
-- `application.png` — the application open in a browser with the sample books visible.
-- `crud-example.png` — show a book after adding or editing it; take another screenshot after deleting if useful.
-- `startup-console.png` — IntelliJ Run console showing that Spring Boot started successfully and the server is listening on port 8080.
+| File | What it shows |
+| --- | --- |
+| `application.png` | The running Book Catalogue with the three sample books. |
+| `crud-example.png` | A successfully added example book and the `Book saved.` confirmation. The temporary example record was removed after capture. |
+| `startup-log.txt` | A genuine excerpt from the successful Spring Boot startup output. |
+| `assignment-evidence.docx` | A two-page report combining the interface screenshots, captions and startup excerpt. |
 
-Do not submit placeholder images. Capture these after launching the application locally.
+The application was compiled with JDK 21 and its create, edit and delete actions were verified in the browser. The screenshots document the running catalogue and the create action. There is no separate screenshot of the console; the genuine startup excerpt is included as text. The database is in memory, so the temporary example record does not persist after restart.
